@@ -1,8 +1,8 @@
 interface:
-  display_name: "乔布斯式产品审美"
-  short_description: "把极致审美转成软硬件产品设计决策"
+  display_name: "Jobs-Inspired Product Aesthetics"
+  short_description: "Turn extreme taste into product design decisions"
   brand_color: "#1D1D1F"
-  default_prompt: "使用 $jobs-aesthetic-product-design 评审这个产品，让核心承诺、细节和软硬件体验达到发布门槛。"
+  default_prompt: "Use $jobs-aesthetic-product-design to review this product and raise its promise, details, and hardware-software experience to the release bar."
 
 policy:
   allow_implicit_invocation: true

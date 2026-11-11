@@ -1,117 +1,117 @@
 ---
 name: jobs-aesthetic-product-design
-description: 将苹果式的清晰、克制、软硬件一体化与极致工艺转化为可执行的产品设计方法。用于软件、硬件、交互、工业设计、包装、品牌触点和产品评审；当用户要求“乔布斯审美”、苹果风格、极简但高级、艺术品般的产品体验或设计取舍时使用。
+description: Turn Apple-inspired clarity, restraint, hardware-software integration, and meticulous craft into actionable product design decisions. Use for software, hardware, interaction, industrial design, packaging, brand touchpoints, and product reviews when the goal is a focused, refined, artful experience.
 ---
 
-# 乔布斯式产品审美
+# Jobs-Inspired Product Aesthetics
 
-把审美当成产品判断力，而不是表面装饰。目标是做出有明确意图、核心价值突出、复杂性被产品吸收、软硬件和服务彼此成全、细节经得起近看和长期使用的产品。
+Treat aesthetics as product judgment, not surface decoration. Aim for products with a clear reason to exist, a dominant value, complexity absorbed by the product, coherent hardware and software, and details that remain convincing up close and over time.
 
-这是一套受 Apple Human Interface Guidelines、Steve Jobs 公开演讲与访谈、工业设计史和设计研究启发的独立方法论。它不是 Apple 官方规范，也不要求复制 Apple 的配色、圆角、字体、材质或营销话术。涉及 Apple 平台时遵循当前官方 HIG；涉及其他平台或硬件时迁移原则并尊重平台、法规、制造和维护约束。
+This is an independent method informed by Apple’s Human Interface Guidelines, Steve Jobs’s public talks and interviews, industrial design history, and design research. It is not an Apple specification and must not imitate Apple’s colors, typefaces, materials, rounded corners, or marketing language by default. Follow the current official HIG when designing for Apple platforms; adapt the principles to other platforms and to real manufacturing, regulatory, accessibility, safety, and maintenance constraints.
 
-## 先读哪些资料
+## Read the right reference
 
-- 做总体方向、设计原则或跨媒介评审：先读 [乔布斯公开原则](references/乔布斯公开原则.md) 和 [极致审美评审](references/极致审美评审.md)。
-- 做软件界面、交互、无障碍、动效或 Apple 平台适配：再读 [苹果设计规范](references/苹果设计规范.md) 中的软件部分，并按需要打开官方页面。
-- 做实体产品、包装、材质、结构或软硬件协同：再读 [苹果设计规范](references/苹果设计规范.md) 中的硬件迁移部分和 [极致审美评审](references/极致审美评审.md) 的硬件检查项。
+- For product direction or cross-medium critique, read [Jobs’ public principles](references/jobs-public-principles.md) and [the aesthetic review rubric](references/extreme-aesthetic-review.md).
+- For software, interaction, accessibility, motion, or Apple-platform work, read the software sections of [Apple design guidelines](references/apple-design-guidelines.md) and open the linked official pages as needed.
+- For physical products, packaging, materials, structure, or hardware-software integration, read the hardware sections of [Apple design guidelines](references/apple-design-guidelines.md) and the hardware checks in [the aesthetic review rubric](references/extreme-aesthetic-review.md).
 
-## 工作方式
+## Working method
 
-### 1. 先定义产品的“唯一重要承诺”
+### 1. Define the product thesis before the visual direction
 
-在提出视觉方案之前，写清楚：
+Write down:
 
-1. 产品为谁解决什么问题。
-2. 用户最希望完成的一个任务或感受是什么。
-3. 哪个能力必须做到极好，其他能力可以暂缓。
-4. 产品主动选择不做什么。
-5. 成功的体验证据是什么：更快、更易懂、更安心、更有掌控感，还是更愿意长期使用。
+1. Who the product is for and what problem it solves.
+2. The single task or feeling that matters most.
+3. The capability that must be excellent.
+4. What the product deliberately refuses to do.
+5. What evidence would show that the experience is faster, clearer, safer, more confident, or more enduring.
 
-用一句话表达产品承诺。若一句话无法说清，先缩小范围，不要用更多页面、按钮、功能或装饰来掩盖定位不清。
+Express the promise in one sentence. If that is impossible, narrow the product before adding screens, controls, features, or decoration.
 
-### 2. 从完整体验倒推，而不是先做表面
+### 2. Design the whole journey
 
-把产品看成一个连续系统：需求与命名 → 第一次接触 → 开箱或首次启动 → 核心任务 → 空状态、等待、错误和恢复 → 长期使用 → 更新、维护、转交、回收。软件产品还要把数据、账号、通知、隐私和跨设备体验纳入；硬件产品还要把手感、声音、重量、发热、连接、包装、维修和生命周期纳入。
+Map the product as one continuous system: naming and first contact → unboxing or first launch → core task → empty, loading, success, failure, and recovery states → long-term use → updates, maintenance, handoff, repair, and retirement.
 
-先画出这条体验链，再决定视觉语言。每个触点都要回答同一个问题：它是否让产品承诺更清楚、更可信、更容易实现。
+Include accounts, data, notifications, privacy, and cross-device behavior for software. Include grip, weight, sound, heat, connections, packaging, service, repair, and lifecycle for hardware. Choose the visual and physical language only after this journey is visible.
 
-### 3. 用删减获得清晰，用层级保留能力
+### 3. Subtract without hiding capability
 
-- 删除没有明确目的、重复信息和只为展示能力而存在的选项。
-- 不把“把功能藏起来”误认为简单；重要能力要容易发现，次要能力要有合理的层级。
-- 让每个界面元素、实体部件、提示音、动画和文案都有职责。
-- 复杂性应由系统、默认值、自动化和设计细节吸收，不能把决策成本转嫁给用户。
-- 任何删减都要说明失去什么、谁会受影响、用什么证据验证。
+- Remove repetition, decorative noise, and options that exist only to advertise capability.
+- Keep important actions discoverable; do not confuse hidden controls with simplicity.
+- Give every UI element, physical part, sound, animation, and sentence a job.
+- Let defaults, automation, system design, and craft absorb complexity instead of passing decisions to the user.
+- For every removal, state what is lost, who is affected, and how the tradeoff will be tested.
 
-### 4. 建立可感知的秩序
+### 4. Establish perceptible order
 
-优先处理信息层级、空间关系、比例、节奏、状态和反馈，再处理颜色与装饰。软件中关注排版、布局、导航、控件、文案、颜色、材质和动效；硬件中关注轮廓、比例、接缝、边缘、按键、接口、光声反馈、材质触感和可维护性。
+Handle purpose, hierarchy, spatial relationships, proportion, rhythm, states, and feedback before color or ornament. For software, inspect typography, layout, navigation, controls, copy, color, materials, motion, and accessibility. For hardware, inspect silhouette, proportion, seams, edges, controls, ports, light and sound feedback, material tactility, manufacturing, and serviceability.
 
-审美取舍遵循以下顺序：
+Use this decision order:
 
-1. 意图：用户是否知道这是什么、为什么存在。
-2. 可用性：是否容易发现、理解、操作、撤销和恢复。
-3. 统一性：软硬件、不同页面、不同状态和不同尺寸是否讲同一种语言。
-4. 工艺：细节是否精确，默认状态是否已经漂亮，长期使用是否仍然舒服。
-5. 情绪：在不干扰任务的前提下，是否留下恰当的惊喜、信任或归属感。
+1. **Intent** — Can people tell what it is and why it exists?
+2. **Usability** — Can they find, understand, perform, undo, and recover from the main action?
+3. **Coherence** — Do pages, states, devices, and physical touchpoints speak the same language?
+4. **Craft** — Are defaults, boundaries, transitions, and close-up details precise?
+5. **Emotion** — Does the product create the right feeling without interrupting the task?
 
-### 5. 让产品本身承担“魔法”，不要让用户猜
+### 5. Make the product carry the magic
 
-把复杂的技术转化为简单、可预测的行为。使用熟悉的模式作为入口，但在关键处可以提供经过验证的新体验。对新概念做原型演示，而不是仅凭问卷判断；同时通过真实用户、真实环境和可访问性测试确认它确实帮助了人。
+Turn technical capability into simple, predictable behavior. Use familiar patterns as entry points, then introduce novelty through prototypes and real use rather than through claims or surveys alone.
 
-对于每个新颖设计，写出：用户看到什么、触发什么、系统做什么、如何反馈、失败时如何回到安全状态。不能解释清楚的“魔法”通常只是隐藏的复杂性。
+For every novel interaction, specify: what people see, what they do, what the system does, how it responds, what happens when it fails, and how the person returns to a safe state. Unexplained magic is usually hidden complexity.
 
-### 6. 软件与硬件分别审查，再作为一个产品审查
+### 6. Review software and hardware separately, then together
 
-软件重点：
+Software review:
 
-- 清楚的入口、强层级和可预测的导航。
-- 文案短、直接、可本地化；按钮表达动作，错误消息给出下一步。
-- 状态完整：首次使用、加载、空状态、成功、失败、离线、权限拒绝、恢复和更新。
-- 动效服务于反馈、空间关系和方向感；支持减少动态效果，不用动画制造噪声。
-- 不靠颜色单独传达信息；支持文字放大、屏幕阅读器、键盘、语音、触控和不同对比度。
+- Clear entry points, strong hierarchy, predictable navigation, and visible recovery paths.
+- Short, direct, localizable copy; action-oriented controls; errors that explain the next step.
+- Complete states for first use, loading, empty content, success, failure, offline mode, denied permissions, recovery, and updates.
+- Motion that explains feedback, space, status, or direction; support reduced-motion settings.
+- No color-only status; support text scaling, screen readers, keyboard, voice, touch, pointers, and contrast needs.
 
-硬件重点：
+Hardware review:
 
-- 形体、重量、握持、按压、滑动、声音、温度和连接方式是否与用途一致。
-- 可见与不可见的结构是否都经过设计；接缝、螺丝、线缆、散热、充电和收纳是否诚实而有秩序。
-- 物料、加工、耐久、维修、升级、回收和包装是否支持长期关系，而不是只服务发布会照片。
-- 实体动作与屏幕反馈是否同义；用户是否能在没有说明书的情况下建立正确心智模型。
+- Shape, weight, grip, pressure, movement, sound, temperature, and connectivity fit the purpose.
+- Visible and hidden structures are designed: seams, screws, cables, cooling, charging, storage, and service access are orderly and honest.
+- Materials, processes, durability, repair, upgrades, recycling, and packaging support a long relationship rather than a launch photo.
+- Physical actions and screen feedback have the same meaning; the product teaches itself without a manual.
 
-### 7. 用“极致审美评审”做发布门槛
+### 7. Use the aesthetic review as a release gate
 
-完成方案后，读取 [极致审美评审](references/极致审美评审.md)，按其中的维度给出证据、风险和下一步。至少完成一次：
+Read [the aesthetic review rubric](references/extreme-aesthetic-review.md) and report evidence, risks, and next steps. At minimum, run:
 
-- 第一眼测试：去掉解释文字，观察用户能否说出产品是什么、最重要的动作是什么。
-- 近看测试：检查文字、间距、边缘、接缝、转角、触感、声音和反馈是否有草率之处。
-- 端到端测试：从第一次接触到失败恢复，检查各触点是否属于同一个产品。
-- 极端场景测试：小屏、暗光、强光、噪声、单手、慢网、离线、辅助功能、长时间握持或维修环境。
+- **First-glance test:** remove explanatory copy and see whether people can identify the product and primary action.
+- **Close-up test:** inspect typography, spacing, edges, seams, transitions, tactility, sound, and feedback for roughness.
+- **End-to-end test:** follow the journey from first contact through failure and recovery.
+- **Stress test:** test small screens, bright and dark environments, noise, one-handed use, slow or absent networks, assistive technology, long sessions, and repair conditions.
 
-如果只是“看起来像 Apple”，但没有解决目的、层级、反馈、可访问性或长期质量问题，结论应为未完成。
+If a proposal only looks Apple-like but fails purpose, hierarchy, feedback, accessibility, reliability, or long-term quality, mark it unfinished.
 
-## 默认交付格式
+## Default deliverable
 
-面对设计任务，输出以下内容，按任务规模取舍：
+Scale the response to the task, but include:
 
-1. **产品审美命题**：一句话承诺，以及它不追求什么。
-2. **关键取舍**：删掉了什么、保留了什么、为什么。
-3. **体验结构**：核心流程或软硬件触点的层级与状态。
-4. **视觉与物理语言**：排版、比例、颜色、材质、动效、声音、触感和响应原则。
-5. **反例与风险**：会造成复杂、装饰化、不可访问、难维护或失去个性的地方。
-6. **验证计划**：要做的原型、测试场景、通过标准和下一轮迭代。
-7. **评审结论**：最重要的问题、建议动作和是否达到发布门槛。
+1. **Product thesis:** the one-sentence promise and what it does not pursue.
+2. **Key tradeoffs:** what was removed, kept, or deferred, and why.
+3. **Experience structure:** the main flow, hierarchy, states, and hardware touchpoints.
+4. **Visual and physical language:** type, proportion, color, materials, motion, sound, tactility, and response.
+5. **Risks and counterexamples:** complexity, decoration, inaccessibility, poor maintenance, or lost identity.
+6. **Validation plan:** prototypes, scenarios, pass criteria, and the next iteration.
+7. **Review verdict:** the highest-leverage issue, recommended action, and release readiness.
 
-评审单个方案时，先指出一个最高杠杆问题，再按“观察 → 影响 → 建议 → 验证”展开。不要堆砌主观形容词，也不要把乔布斯当成替用户做决定的权威。
+When critiquing a single option, lead with one highest-leverage problem and use: **observation → impact → recommendation → test**. Avoid adjective piles. Do not use Steve Jobs as a substitute for user evidence or engineering judgment.
 
-## 不应做的事
+## Do not
 
-- 不把极简等同于少功能、白色、黑色、大留白、圆角、玻璃、阴影或隐藏控件。
-- 不为了视觉纯度牺牲可读性、无障碍、隐私、安全、可靠性、维修性或制造可行性。
-- 不用未经核实的网络名言作为设计依据；尤其不要把“用户不知道自己想要什么”解释成可以忽略用户。
-- 不把 Apple 当前产品或乔布斯时期产品当成永恒模板。先分辨哪些是原则，哪些是时代、平台或品牌表达。
-- 不复制 Apple 的商标、专有素材、界面截图或未经授权的设计资源；引用时保留来源和许可边界。
-- 不声称这是 Apple 官方、乔布斯本人或其遗产机构发布的技能。
+- Equate minimalism with fewer features, white or black surfaces, whitespace, rounded corners, glass, shadows, or hidden controls.
+- Sacrifice legibility, accessibility, privacy, safety, reliability, repairability, or manufacturability for visual purity.
+- Treat unverified internet quotes as rules, especially “people don’t know what they want.”
+- Treat current Apple products or Jobs-era products as timeless templates; separate principles from period, platform, and brand expression.
+- Copy Apple trademarks, proprietary assets, screenshots, or restricted resources without permission. Preserve source and license boundaries.
+- Claim that this is an official Apple, Steve Jobs, or Steve Jobs Archive skill.
 
-## 质量标准
+## Quality bar
 
-交付前确认：产品的核心承诺一句话可说清；每个重要元素有目的；主路径无需猜测；异常可恢复；软硬件语义一致；视觉和物理细节没有明显草率处；关键决策有原型或测试证据；无障碍、隐私、可靠性和生命周期约束已经进入设计，而不是最后补丁。
+Before delivery, confirm that the core promise is clear in one sentence; every important element has a purpose; the main path does not require guessing; failures are recoverable; software and hardware share semantics; close-up details are deliberate; key decisions have prototype or test evidence; and accessibility, privacy, reliability, and lifecycle constraints were designed in from the start.
